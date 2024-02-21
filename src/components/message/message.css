@@ -1,0 +1,21 @@
+.messageBox{
+    padding: 1vmax;
+    margin: 0.5vmax;
+    font-family: sans-serif;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 50%;
+    text-align: left;
+}
+.right{
+    float: right;   
+    background-color: crimson;
+    color: white;
+}
+.left{
+
+    background-color: rgba(10, 181, 10, 0.907);
+    float: left;   
+    color: white;
+}

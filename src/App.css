@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+
+@media (max-aspect-ratio : 7/10){
+  .joinpage{
+    background-color: rgb(18, 16, 16);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.joincontainer{
+    margin-top: 20vw;
+    width: 100%;
+    height: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.joincontainer > img{
+    width: 27vw;
+}
+.joincontainer > h1{
+    font-size:8vw !important ;
+    width: 60vw !important;
+    margin: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.joincontainer > input{
+  width: 60vw !important;
+  font-size: 4.5vw !important;
+  margin: 5vw !important;
+  padding: 2vw !important;
+}
+
+.joincontainer button{
+  width: 60vw !important;
+  padding: 2vw !important;
+  font-size: 4.5vw !important;
+}
+
+/* chat start */
+
+.chatpage{
+  background-color: rgb(18, 16, 16);
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.chatContainer{
+ 
+  width: 100% !important;
+  height: 100% !important;
+}
+.header{
+ padding: 4vw !important;
+ height: 8% !important; 
+}
+.header>h2{
+   font-size: 6vw !important;
+}
+.header img{
+transform: scale(3);
+}
+.header img:hover{
+  transform: scale(3.2);
 }
 
-.App-link {
-  color: #61dafb;
+.chatBox{
+ 
+  height: 84% !important;   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inputBox{
+  height: 8%; 
+}
+#chatInput{
+  width: 80%;
+  font-size: 4.3vw !important;
+  padding: 1.2vmax;
+}
+#sendbtn{
+  width: 20%;
+  background-color: crimson;
+  border: none;
+  transition: all 0.3s;
+}
+
+#sendbtn img{
+  width: 7vw !important;
+}
+
+/* message start */
+
+.messageBox{
+  padding: 2vw;
+  margin: 0.7vw;
+  font-size: 4vw;
+  letter-spacing: 1.1px;
+  display: block;
+  clear: both;
+  max-width: 50%;
+  text-align: left;
+}
+
+
+
 }
