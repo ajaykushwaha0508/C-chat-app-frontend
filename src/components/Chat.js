@@ -8,7 +8,7 @@ import ReactScrollToBottom from 'react-scroll-to-bottom';
 import closeIcon from '../Img/closeIcon.png';
 import "./chat.css";
 
-const Endpoint = "http://localhost:4000/";
+const Endpoint = "https://c-chat-app-server-lvx4n29bo-ajay-kushwahas-projects.vercel.app/";
 let soket;
 
 const Chat = () => {
